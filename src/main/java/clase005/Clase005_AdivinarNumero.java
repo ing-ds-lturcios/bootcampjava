@@ -1,4 +1,4 @@
-package Clase005;
+package clase005;
 
 import java.util.Scanner;
 
@@ -12,9 +12,9 @@ public class Clase005_AdivinarNumero {
             System.out.print("Ingrese un número: ");
             numeroIngresado = input.nextInt();
             if (numeroIngresado < numeroAdivinar) {
-                System.out.println("El número ingresado es menor al número a adivinar.");
+                System.out.println("El número ingresado es menor al número que pensé.");
             } else if (numeroIngresado > numeroAdivinar) {
-                System.out.println("El número ingresado es mayor al número a adivinar.");
+                System.out.println("El número ingresado es mayor al número que pensé.");
             } else {
                 System.out.println("¡Felicidades, Adivinaste el número!");
             }
